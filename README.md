@@ -1,6 +1,3 @@
-# Labmate
-LABMATE your bench companion! Lab inventory, custom databases, protocols, experiments and calculators in one offline app. No account, no server; your data stays on your computer
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="logo/labmate_logo_dark.png">
