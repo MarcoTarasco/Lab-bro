@@ -1,3 +1,10 @@
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logo/lab-bro_logo_dark.png">
+    <img src="logo/lab-bro_logo_light.png" alt="lab-bro — your bench companion" width="460">
+  </picture>
+
 **One HTML file. Your whole bench.** Inventory, custom databases, protocols, an
 experiment notebook and a drawer full of molecular-biology calculators — no server,
 no account, no sign-up. Everything lives in your own browser, on your own computer.
