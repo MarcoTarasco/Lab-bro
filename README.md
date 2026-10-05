@@ -1,19 +1,29 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo/labmate_logo_dark.png">
-    <img src="logo/labmate_logo_light.png" alt="labmate — your bench companion" width="460">
+    <source media="(prefers-color-scheme: dark)" srcset="logo/lab-bro_logo_dark.png">
+    <img src="logo/lab-bro_logo_light.png" alt="lab-bro — your bench companion" width="460">
   </picture>
+</p>
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/lab.bro.bench.companion"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy me a coffee"></a>
+  <a href="https://www.instagram.com/lab.bro.your.bench.companion"><img src="https://img.shields.io/badge/Instagram-lab.bro.your.bench.companion-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="mailto:lab.bro@outlook.com"><img src="https://img.shields.io/badge/%E2%9C%89%20Email-lab.bro%40outlook.com-0f1f3a?style=for-the-badge" alt="E-mail"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/MarcoTarasco/Lab-bro/releases/latest"><img src="https://img.shields.io/github/v/release/MarcoTarasco/Lab-bro?style=flat-square&label=download&color=00a896" alt="Latest release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-PolyForm%20Strict%201.0.0-0f1f3a?style=flat-square" alt="Licence: PolyForm Strict 1.0.0"></a>
 </p>
 
 **One HTML file. Your whole bench.** Inventory, custom databases, protocols, an
 experiment notebook and a drawer full of molecular-biology calculators — no server,
-no account, no sign-up. Everything lives in your own browser, on your own machine.
+no account, no sign-up. Everything lives in your own browser, on your own computer.
 
-> Built for a zebrafish lab, useful in any wet lab.
+![Lab-Bro at a glance](media/01_overview.gif)
 
 ## ⬇️ Get it
 
-Download **`labmate.html`** from the [**Releases**](../../releases/latest) page,
+Download **`lab-bro.html`** from the [**Releases**](https://github.com/MarcoTarasco/Lab-bro/releases/latest) page,
 then just double-click it. That's the whole installation.
 
 It works offline, straight from your hard drive — Excel import/export included
@@ -21,10 +31,10 @@ It works offline, straight from your hard drive — Excel import/export included
 
 **A few house rules**
 
-- Your data is stored in that browser's local storage, so open LabMate from the
+- Your data is stored in that browser's local storage, so open Lab-Bro from the
   **same file path in the same browser** each time, and it will be there.
 - Nothing is ever uploaded anywhere. There is no cloud, and no one else can see it.
-- Because it is browser storage, clearing your browsing data clears LabMate. Set a
+- Because it is browser storage, clearing your browsing data clears Lab-Bro. Set a
   backup folder in Settings and hit **💾 Save Backup** regularly — it writes a full
   JSON (exact restore) plus a readable Excel workbook.
 
@@ -33,131 +43,94 @@ It works offline, straight from your hard drive — Excel import/export included
 ## 🧪 Inventory
 
 Reagents, consumables and equipment in one list: quantities, lots, expiry,
-location, supplier, hazard tags and SDS links. Low stock and expiring items are
-flagged for you on the first screen.
+location, supplier and hazard tags. Filter by category — chemicals, enzymes, kits,
+antibodies… and the instruments, right next to the reagents.
 
-![Stock overview](screenshots/01_dashboard.png)
+![Filter by category](media/02_filters.gif)
 
-Filter by category — here the example **chemicals** that ship with the app:
+Click any item — anywhere on its row — to see its whole record; edit it in one click.
 
-![Chemicals](screenshots/02_chemicals.png)
+![One item, every field](media/03_item_record.gif)
 
-…and the **equipment**, tracked right next to the reagents:
+Find things as you type: name, catalog number, supplier, location.
 
-![Equipment](screenshots/03_equipment.png)
+![Live search](media/04_live_search.gif)
 
-Click any item — anywhere on its row — to read the whole record; hit Edit to change it:
+Everything below its minimum lands in an **order list** you can export…
 
-![One item, every field](screenshots/04_item_record.png)
+![Order list](media/05_order_list.gif)
 
-Everything below its minimum is collected into an **order list** you can export:
+…and everything about to expire (or already expired) has its own watch list.
 
-![Order list](screenshots/05_order_list.png)
+![Expiry watch](media/06_expiry_watch.gif)
 
-…and everything about to expire (or already expired) has its own watch list:
+---
 
-![Expiry watch](screenshots/06_expiry_watch.png)
+## 🔎 Search everything
+
+**Ctrl/⌘ + K** finds anything, anywhere — items, database records, protocols,
+recipes and experiments — from one box.
+
+![Search everything](media/07_search_everything.gif)
 
 ---
 
 ## 🗄️ Databases
 
-Build your own tables — primers, plasmids, probes, fish lines, equipment logs —
+Build your own tables — equipment logs, primers, plasmids, probes, fish lines —
 with your own columns, batch editing, and Excel/CSV/JSON import & export.
+Anything with a sequence column also gets primer QC and a duplicate finder.
 
-An **equipment log** with models, serials, service dates and status:
-
-![Equipment log](screenshots/07_equipment_log.png)
-
-A **primer database**; anything with a sequence column also gets QC and
-duplicate-finder tools:
-
-![Primer database](screenshots/08_primers_database.png)
+![Databases](media/08_databases.gif)
 
 ---
 
 ## 📖 Protocols
 
-Write a protocol once, then run it from the screen.
+Write a protocol once, then run it from the screen: every protocol becomes a
+**tickable checklist** with coloured day sections, and the progress is saved — a
+three-day protocol survives going home in between. Print a clean bench copy
+whenever you prefer paper.
 
-![Protocol library](screenshots/09_protocols.png)
-
-Each protocol becomes a **tickable checklist** with coloured day-dividers; the
-progress is saved, so a three-day protocol survives going home in between. Print a
-clean bench copy whenever you prefer paper.
-
-![Protocol checklist](screenshots/10_protocol_checklist.png)
+![Protocol checklist](media/09_protocols.gif)
 
 ---
 
 ## 📓 Experiments
 
-A light lab notebook. Each entry has a date, tags, a status and notes — and every
-tag becomes a filter.
+A light lab notebook: date, tags, status and notes — plus an **Excel-like grid with
+sheet tabs**. Paste straight from a spreadsheet, keep the results on one tab and the
+PCR setup on the next. Import a pile of .xlsx files and each becomes an experiment.
 
-![Experiment list](screenshots/11_experiments.png)
-
-Inside, an **Excel-like grid with sheet tabs**: paste straight from a spreadsheet,
-resize columns, undo a bad paste, and keep your PCR setup on a second tab next to
-the results. Import a pile of .xlsx files and each becomes its own experiment.
-
-![Experiment grid](screenshots/12_experiment_grid.png)
+![Experiments](media/10_experiments.gif)
 
 ---
 
 ## ⚗️ Calculators
 
-Build a solution once and let LabMate scale it — percentages, dilutions from stock,
-ratios, molarity + MW, fill-to-volume:
+Save a master mix once and scale it to any number of reactions; work out exact
+microlitres for **In-Fusion** or **NEBuilder HiFi** assemblies; scale solution
+recipes; add the flanks for sgRNAs or in-situ probes — plus C1V1, molarity,
+dilutions, oligo resuspension and ng↔pmol.
 
-![Recipe calculator](screenshots/13_recipe_calculator.png)
-
-Save your master mixes and scale them to any number of reactions, with a printable
-pipetting scheme:
-
-![Reaction mix](screenshots/14_reaction_mix.png)
-
-Work out the exact microlitres of vector and insert for **In-Fusion** or
-**NEBuilder HiFi** assemblies:
-
-![Assembly calculator](screenshots/15_assembly_calculator.png)
-
-Paste a sequence and add the fixed flanks for sgRNAs or in-situ probes:
-
-![Oligo design](screenshots/16_oligo_design.png)
-
-Plus C1V1, molarity, dilutions, oligo resuspension and ng↔pmol in the
-**Lab Calculators** panel.
+![Calculators](media/11_calculators.gif)
 
 ---
 
-## 📊 Analytics & search
+## 🎨 Make it yours
 
-See where your stock sits and what it is made of:
+Ten themes and a colour picker for every part of the screen.
 
-![Analytics](screenshots/17_analytics.png)
-
-And find anything, anywhere, with **Ctrl/⌘ + K** — items, database records,
-protocols, recipes, experiments:
-
-![Search everything](screenshots/18_search_everything.png)
-
----
-
-## ⚙️ Settings
-
-Ten themes, a per-colour customiser, your backup folder, and the trial panel:
-
-![Settings](screenshots/19_settings.png)
+![Themes](media/12_themes.gif)
 
 ---
 
 ## 🌱 What you get on first open
 
-LabMate starts with example data so nothing is a blank page: ~36 example items
-(chemicals, enzymes, kits, buffers, antibodies, consumables, equipment), example
-primer / plasmid / probe / equipment-log databases, four example protocols, two
-recipes and two example experiments.
+Lab-Bro starts with example data so nothing is a blank page: ~36 example items
+(chemicals, enzymes, kits, buffers, antibodies, consumables, equipment) from
+made-up suppliers, example primer / plasmid / probe / equipment-log databases, four
+example protocols, two recipes and two example experiments.
 
 They are only there to show what goes where — clear them in one click under
 **Settings › Reset Data**, or simply edit them into your own work.
@@ -173,11 +146,46 @@ When the time is up, the app is replaced by a lock screen: **nothing is deleted*
 your data stays in the browser, and you can still download a copy of it from that
 screen. A valid access code starts a fresh 90 days.
 
-![Trial lock screen](screenshots/20_trial_lock_screen.png)
+<p align="center"><img src="media/13_lock_screen.png" alt="Trial lock screen" width="560"></p>
 
-**Want a code?** Write to **Marco Tarasco** —
-[marco.tarasco@mpi-bn.mpg.de](mailto:marco.tarasco@mpi-bn.mpg.de)
+**Want a code?** Write to **[lab.bro@outlook.com](mailto:lab.bro@outlook.com)**.
 
 ---
 
-<sub>LabMate v25 · single-file web app · © Marco Tarasco, Max Planck Institute for Heart and Lung Research</sub>
+## 💬 Help, feedback & support
+
+- **Questions, ideas or a bug?** Write to **[lab.bro@outlook.com](mailto:lab.bro@outlook.com)** —
+  or open an [Issue](https://github.com/MarcoTarasco/Lab-bro/issues).
+- **Follow along** on Instagram:
+  [@lab.bro.your.bench.companion](https://www.instagram.com/lab.bro.your.bench.companion).
+- **Like it?** Lab-Bro is built by one scientist in spare time. A coffee keeps it going:
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/lab.bro.bench.companion"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy me a coffee"></a>
+</p>
+
+---
+
+## 📜 Credits & licences
+
+Lab-Bro includes **SheetJS Community Edition** (Apache License 2.0) for Excel
+import/export and uses the **IBM Plex** and **Nunito** fonts (SIL Open Font License
+1.1). Full notices and licence texts — including the tools used to make the
+screenshots and videos — are in **[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)**.
+
+Kit and product names mentioned in the calculators belong to their owners; Lab-Bro
+is not affiliated with them.
+
+---
+
+## ⚖️ Licence
+
+Lab-Bro is © 2026 Marco Tarasco and licensed under the
+**[PolyForm Strict License 1.0.0](LICENSE)**: free to use for any **non-commercial**
+purpose — research, teaching, personal use, non-profit organisations — but you may not
+modify it or share your own copies. Want to use it commercially, or redistribute it?
+Write to **[lab.bro@outlook.com](mailto:lab.bro@outlook.com)**.
+
+---
+
+<sub>Lab-Bro v1 · single-file web app · © 2026 Marco Tarasco · <a href="https://github.com/MarcoTarasco/Lab-bro">github.com/MarcoTarasco/Lab-bro</a></sub>
