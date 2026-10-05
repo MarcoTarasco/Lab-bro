@@ -1,20 +1,3 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo/lab-bro_logo_dark.png">
-    <img src="logo/lab-bro_logo_light.png" alt="lab-bro — your bench companion" width="460">
-  </picture>
-</p>
-
-<p align="center">
-  <a href="https://www.buymeacoffee.com/lab.bro.bench.companion"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy me a coffee"></a>
-  <a href="https://www.instagram.com/lab.bro.your.bench.companion"><img src="https://img.shields.io/badge/Instagram-lab.bro.your.bench.companion-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="mailto:lab.bro@outlook.com"><img src="https://img.shields.io/badge/%E2%9C%89%20Email-lab.bro%40outlook.com-0f1f3a?style=for-the-badge" alt="E-mail"></a>
-</p>
-<p align="center">
-  <a href="https://github.com/MarcoTarasco/Lab-bro/releases/latest"><img src="https://img.shields.io/github/v/release/MarcoTarasco/Lab-bro?style=flat-square&label=download&color=00a896" alt="Latest release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-PolyForm%20Strict%201.0.0-0f1f3a?style=flat-square" alt="Licence: PolyForm Strict 1.0.0"></a>
-</p>
-
 **One HTML file. Your whole bench.** Inventory, custom databases, protocols, an
 experiment notebook and a drawer full of molecular-biology calculators — no server,
 no account, no sign-up. Everything lives in your own browser, on your own computer.
